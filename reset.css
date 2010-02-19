@@ -1,0 +1,38 @@
+/********
+	Base Styles
+		**********/	
+* {
+	margin:0;
+	padding:0;
+}
+img{border:none;}
+p{
+	margin:0 auto 10px auto;
+}
+abbr{
+	border:none;
+	display:inline;
+}
+address{
+	font-style:normal;
+	display:inline;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+li{
+	list-style-type:none;
+}

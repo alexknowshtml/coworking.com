@@ -1,0 +1,54 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  background:#F4EAD3;
+  color: #9E9CA0;
+  font-size:18px;
+  line-height:20px;
+  position:relative;
+}
+#wrapper{
+  margin:10px 15px 100px 15px;
+  width:1050px;
+  position:relative;
+}
+#did-you-know{
+  font-size:40px;
+  line-height:60px;
+}
+strong{
+  color:#8A4615;
+  background:#DDC083;
+  text-shadow:none;
+  padding:0px 3px;
+}
+a, a:hover, a:active, a:visited{
+  color:#20659B;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+#resources ul{
+  margin-top:50px;
+}
+#resources ul li{
+  margin:0 0 15px 0;
+}
+#copyleft{
+  position:absolute;
+  position:fixed;
+  width:100%;
+  bottom:0;
+  right:0;
+  font-size:11px;
+  text-align:right;
+  padding:5px;
+  background:#F4EAD3;
+  filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+#copyleft p{
+  color:#000;
+}
