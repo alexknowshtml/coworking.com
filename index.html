@@ -6,12 +6,6 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Coworking - a global community of people dedicated to the values of Collaboration, Openness, Community, Accessibility, and Sustainability in their workplaces</title>
     <style type="text/css" media="screen">
-      * {
-      	margin: 0;
-      }
-      html, body {
-      	height: 100%;
-      }
       body{
         font-family: Helvetica, Arial, sans-serif;
         background:#F4EAD3;
@@ -21,8 +15,9 @@
         position:relative;
       }
       #wrapper{
-        margin:15px;
-        width:1100px;
+        margin:10px 15px 100px 15px;
+        width:1050px;
+        position:relative;
       }
       #did-you-know{
         font-size:40px;
@@ -32,7 +27,6 @@
       strong{
         color:#8A4615;
         background:#DDC083;
-/*        text-shadow: 1px 1px 1px #242d39;*/
         text-shadow:none;
         padding:0px 3px;
       }
@@ -42,7 +36,6 @@
       }
       a:hover{
         text-decoration:underline;
-/*        text-shadow: 0px 0px 1px #242d39;        */
       }
       #resources ul{
         margin-left:-35px;
@@ -55,13 +48,24 @@
       #copyleft{
         position:absolute;
         position:fixed;
+        width:100%;
         bottom:0;
         right:0;
         font-size:11px;
         text-align:right;
         padding:5px;
-
         background:#F4EAD3;
+        filter:alpha(opacity=50);
+      	-moz-opacity:0.5;
+      	-khtml-opacity: 0.5;
+      	opacity: 0.5;
+      }
+      #copyleft p{
+        color:#000;
+        filter:alpha(opacity=100);
+      	-moz-opacity:1;
+      	-khtml-opacity: 1;
+      	opacity: 1;
       }
     </style>
   </head>
