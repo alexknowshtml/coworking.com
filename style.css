@@ -8,6 +8,7 @@ body{
 }
 #wrapper{
   margin:10px 15px 100px 15px;
+  padding-top:50px;
   width:1050px;
   position:relative;
 }
@@ -18,8 +19,7 @@ body{
 strong{
   color:#8A4615;
   background:#DDC083;
-  text-shadow:none;
-  padding:0px 3px;
+  padding:1px 3px;
 }
 a, a:hover, a:active, a:visited{
   color:#20659B;
@@ -36,9 +36,9 @@ a:hover{
 }
 #copyleft{
   position:absolute;
-  position:fixed;
+  position:fixed;  
   width:100%;
-  bottom:0;
+  top:0;
   right:0;
   font-size:11px;
   text-align:right;
@@ -51,4 +51,20 @@ a:hover{
 }
 #copyleft p{
   color:#000;
+}
+@-webkit-keyframes pulse {
+  from {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  to { 
+    opacity: 0.55;
+  }
+}
+span.pulse { 
+  -webkit-animation-name: pulse; 
+  -webkit-animation-duration: 1s; 
+  -webkit-animation-iteration-count: 30; 
 }
